@@ -1,7 +1,7 @@
 # Site settings
 title: "My Awesome Book"
-description: "A website to showcase my new boo"
-url: "https://fasih0001.github.io/"
+description: "A website to showcase my new book"
+url: "https://username.github.io"
 baseurl: ""
 
 # Theme settings
@@ -25,4 +25,92 @@ footer_links:
   Privacy Policy: "/privacy"
   Terms of Service: "/terms"
   Contact Us: "/contact"
+
+# Extra CSS styles
+style: |
+  body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  .btn:hover {
+    background-color: #0062cc;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #333;
+  }
+  a {
+    color: #007bff;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
+  }
+  a:hover {
+    border-bottom: 2px solid #007bff;
+  }
+  .jumbotron {
+    padding: 100px 0;
+    background-image: url('https://source.unsplash.com/1600x900/?book');
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .jumbotron h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
+  .jumbotron p {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+  .jumbotron .btn {
+    margin-top: 40px;
+    font-size: 1.5rem;
+  }
+  .card {
+    border: none;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    margin-bottom: 40px;
+  }
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px 4px 0 0;
+  }
+  .card-body {
+    padding: 20px;
+  }
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+  .card-text {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: 0;
+  }
+
 
